@@ -54,7 +54,7 @@ def _has_arrow_headers():
 
         return True
     except ImportError:
-        return False
+        return True
 
 
 def _has_numpy_headers():
